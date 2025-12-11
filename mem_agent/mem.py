@@ -17,6 +17,14 @@ config = {
         "provider" : "openai",
         "config" : {"api_key" : OPEN_API_KEY, "model" : "gpt-4.1"}
     },
+    "graph_store" : {
+        "provider" : "neo4j",
+        "config" : {
+            "url" : "neo4j+s://f57e5ffb.databases.neo4j.io",
+            "username" : "neo4j",
+            "password" : "F3YhUYnDMZSDpBbyt1qn6Iz4atnZ6-EhTUpTqMR35RA"
+        }
+    },
     "vector_store" : {
         "provider" : "qdrant",
         "config" : {
